@@ -1,0 +1,29 @@
+.finder {
+  padding: 30px;
+  text-align: center;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px 0;
+}
+
+.controls input,
+.controls select {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.results {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.no-result {
+  color: gray;
+  margin-top: 20px;
+}
